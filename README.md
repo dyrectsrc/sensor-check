@@ -1,3 +1,31 @@
+# CMG Engineering Audition
+
+# Author
+
+Pierre Besson
+
+# The Approach
+
+My solution was to get the logfile and turn it into an array of objects I can use to render to the frontend with React.
+
+# Technology Used
+
+I used React, Typescript, Sass, Mathjs, CSS Grid, and Regex.
+
+# What I would do if I had more time
+
+Create a form for the ability to upload a logfile and have it read.
+I would tighten up my Typescript.
+Refactor by creating functions to minimize repetative code.
+I would utilize Jest to write test for my functions.
+Work on some CSS UI tweaks.
+
+# Instructions
+
+After pulling code, npm install, and npm start, you should see the output with some css styles on http://localhost:3000.
+The logic for the app is in src/components/FileToObject.tsx
+The output component being rendered in the frontend is in src/components/SensorList/SensorList.tsx
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

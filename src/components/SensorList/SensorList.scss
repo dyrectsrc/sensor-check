@@ -1,0 +1,40 @@
+.sensor-list-wrap {
+  background: #c4e7f1;
+  padding: 20px 0 60px 0;
+  .sensor-list {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    margin-top: 40px;
+    max-width: 1200px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 45px;
+    .sensor-card {
+      text-align: center;
+      background: #fff;
+      border-radius: 20px;
+      margin-bottom: 20px;
+      padding: 20px 45px;
+      border: 2px solid #9b087b;
+      .name {
+        color: #9b087b;
+        text-transform: capitalize;
+      }
+      .discard {
+        background: #fc0909;
+        color: #eee;
+        padding: 15px;
+        border-radius: 20px;
+      }
+      .status {
+        background: #9b087b;
+        color: #eee;
+        padding: 15px;
+        border-radius: 20px;
+      }
+      .readings {
+        word-break: break-all;
+      }
+    }
+  }
+}
